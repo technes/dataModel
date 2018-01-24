@@ -1,946 +1,971 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_GXcEUP-gEeeztu7iB9lEbg" name="technes">
-  <eAnnotations xmi:id="_GXcEUf-gEeeztu7iB9lEbg" source="Objing">
-    <contents xmi:type="uml:Property" xmi:id="_GXcEUv-gEeeztu7iB9lEbg" name="exporterVersion">
-      <defaultValue xmi:type="uml:LiteralString" xmi:id="_GXcEU_-gEeeztu7iB9lEbg" value="3.0.0"/>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_k6BRYAFXEeiero8MWZ0L1A" name="technes">
+  <eAnnotations xmi:id="_k6BRYQFXEeiero8MWZ0L1A" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_k6BRYgFXEeiero8MWZ0L1A" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_k6BRYwFXEeiero8MWZ0L1A" value="3.0.0"/>
     </contents>
   </eAnnotations>
-  <ownedComment xmi:id="_GXcEVP-gEeeztu7iB9lEbg">
+  <ownedComment xmi:id="_k6BRZAFXEeiero8MWZ0L1A">
     <body>&lt;Enter note text here></body>
   </ownedComment>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEVf-gEeeztu7iB9lEbg" name="Identifiant">
-    <ownedComment xmi:id="_GXcEVv-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRZQFXEeiero8MWZ0L1A" name="Identifiant">
+    <ownedComment xmi:id="_k6BRZgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedAttribute xmi:id="_GXcEV_-gEeeztu7iB9lEbg" name="identifiant" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEWP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRZwFXEeiero8MWZ0L1A" name="identifiant" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRaAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEWf-gEeeztu7iB9lEbg" name="typeIdentifiant" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEWv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRaQFXEeiero8MWZ0L1A" name="typeIdentifiant" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRagFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEW_-gEeeztu7iB9lEbg" name="Artefact">
-    <ownedComment xmi:id="_GXcEXP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRawFXEeiero8MWZ0L1A" name="Artefact">
+    <ownedComment xmi:id="_k6BRbAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedAttribute xmi:id="_GXcEXf-gEeeztu7iB9lEbg" name="estAssocieDe" visibility="public" type="_GXcEW_-gEeeztu7iB9lEbg" association="_GXcEbv-gEeeztu7iB9lEbg">
-      <ownedComment xmi:id="_GXcEXv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRbQFXEeiero8MWZ0L1A" name="estAssocieDe" visibility="public" type="_k6BRawFXEeiero8MWZ0L1A" association="_k6BRfgFXEeiero8MWZ0L1A">
+      <ownedComment xmi:id="_k6BRbgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEX_-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEYP-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRbwFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRcAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEYf-gEeeztu7iB9lEbg" name="estConservePar" visibility="public" type="_GXcEhf-gEeeztu7iB9lEbg" association="_GXcEc_-gEeeztu7iB9lEbg">
-      <ownedComment xmi:id="_GXcEYv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRcQFXEeiero8MWZ0L1A" name="estConservePar" visibility="public" type="_k6BRlQFXEeiero8MWZ0L1A" association="_k6BRgwFXEeiero8MWZ0L1A">
+      <ownedComment xmi:id="_k6BRcgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEY_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRcwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEZP-gEeeztu7iB9lEbg" name="estIdentfiePar" visibility="public" type="_GXcEVf-gEeeztu7iB9lEbg" aggregation="shared" association="_GXcEdf-gEeeztu7iB9lEbg">
-      <ownedComment xmi:id="_GXcEZf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRdAFXEeiero8MWZ0L1A" name="estIdentfiePar" visibility="public" type="_k6BRZQFXEeiero8MWZ0L1A" aggregation="shared" association="_k6BRhQFXEeiero8MWZ0L1A">
+      <ownedComment xmi:id="_k6BRdQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEZv-gEeeztu7iB9lEbg" name="designation" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEZ_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRdgFXEeiero8MWZ0L1A" name="designation" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRdwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEaP-gEeeztu7iB9lEbg" name="notePublique" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEaf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BReAFXEeiero8MWZ0L1A" name="notePublique" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BReQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEav-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRegFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEa_-gEeeztu7iB9lEbg" name="notePrivee" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEbP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRewFXEeiero8MWZ0L1A" name="notePrivee" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRfAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEbf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRfQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_GXcEbv-gEeeztu7iB9lEbg" name="RelationArtefact" memberEnd="_GXcEXf-gEeeztu7iB9lEbg _GXcEcv-gEeeztu7iB9lEbg">
-    <ownedComment xmi:id="_GXcEb_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_k6BRfgFXEeiero8MWZ0L1A" name="RelationArtefact" memberEnd="_k6BRbQFXEeiero8MWZ0L1A _k6BRggFXEeiero8MWZ0L1A">
+    <ownedComment xmi:id="_k6BRfwFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedAttribute xmi:id="_GXcEcP-gEeeztu7iB9lEbg" name="typeRelation" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEcf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRgAFXEeiero8MWZ0L1A" name="typeRelation" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRgQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedEnd xmi:id="_GXcEcv-gEeeztu7iB9lEbg" visibility="public" type="_GXcEW_-gEeeztu7iB9lEbg" association="_GXcEbv-gEeeztu7iB9lEbg"/>
+    <ownedEnd xmi:id="_k6BRggFXEeiero8MWZ0L1A" visibility="public" type="_k6BRawFXEeiero8MWZ0L1A" association="_k6BRfgFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_GXcEc_-gEeeztu7iB9lEbg" memberEnd="_GXcEYf-gEeeztu7iB9lEbg _GXcEdP-gEeeztu7iB9lEbg">
-    <ownedEnd xmi:id="_GXcEdP-gEeeztu7iB9lEbg" visibility="public" type="_GXcEW_-gEeeztu7iB9lEbg" association="_GXcEc_-gEeeztu7iB9lEbg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k6BRgwFXEeiero8MWZ0L1A" memberEnd="_k6BRcQFXEeiero8MWZ0L1A _k6BRhAFXEeiero8MWZ0L1A">
+    <ownedEnd xmi:id="_k6BRhAFXEeiero8MWZ0L1A" visibility="public" type="_k6BRawFXEeiero8MWZ0L1A" association="_k6BRgwFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_GXcEdf-gEeeztu7iB9lEbg" memberEnd="_GXcEZP-gEeeztu7iB9lEbg _GXcEdv-gEeeztu7iB9lEbg">
-    <ownedEnd xmi:id="_GXcEdv-gEeeztu7iB9lEbg" visibility="public" type="_GXcEW_-gEeeztu7iB9lEbg" association="_GXcEdf-gEeeztu7iB9lEbg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k6BRhQFXEeiero8MWZ0L1A" memberEnd="_k6BRdAFXEeiero8MWZ0L1A _k6BRhgFXEeiero8MWZ0L1A">
+    <ownedEnd xmi:id="_k6BRhgFXEeiero8MWZ0L1A" visibility="public" type="_k6BRawFXEeiero8MWZ0L1A" association="_k6BRhQFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEd_-gEeeztu7iB9lEbg" name="Fabrication">
-    <ownedComment xmi:id="_GXcEeP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRhwFXEeiero8MWZ0L1A" name="Fabrication">
+    <ownedComment xmi:id="_k6BRiAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedAttribute xmi:id="_GXcEef-gEeeztu7iB9lEbg" name="fabriquant" visibility="public" type="_GXcr6v-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEev-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRiQFXEeiero8MWZ0L1A" name="fabriquant" visibility="public" type="_k6B5rQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRigFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEe_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRiwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEfP-gEeeztu7iB9lEbg" name="lieu" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEff-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRjAFXEeiero8MWZ0L1A" name="lieu" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRjQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEfv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRjgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEf_-gEeeztu7iB9lEbg" name="dateDebut" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEgP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRjwFXEeiero8MWZ0L1A" name="dateDebut" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRkAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEgf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRkQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEgv-gEeeztu7iB9lEbg" name="dateFin" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEg_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRkgFXEeiero8MWZ0L1A" name="dateFin" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRkwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEhP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRlAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEhf-gEeeztu7iB9lEbg" name="LieuDeConservation">
-    <ownedComment xmi:id="_GXcEhv-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRlQFXEeiero8MWZ0L1A" name="LieuDeConservation">
+    <ownedComment xmi:id="_k6BRlgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedAttribute xmi:id="_GXcEh_-gEeeztu7iB9lEbg" name="institution" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEiP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRlwFXEeiero8MWZ0L1A" name="institution" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRmAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEif-gEeeztu7iB9lEbg" name="LieuConservation" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEiv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRmQFXEeiero8MWZ0L1A" name="lieuConservation" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRmgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEi_-gEeeztu7iB9lEbg" name="Repository" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEjP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRmwFXEeiero8MWZ0L1A" name="repository" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRnAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEjf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRnQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEjv-gEeeztu7iB9lEbg" name="cote" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEj_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRngFXEeiero8MWZ0L1A" name="cote" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRnwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEkP-gEeeztu7iB9lEbg" name="fonds" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEkf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRoAFXEeiero8MWZ0L1A" name="fonds" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRoQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEkv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRogFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEk_-gEeeztu7iB9lEbg" name="Acteur">
-    <ownedComment xmi:id="_GXcElP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRowFXEeiero8MWZ0L1A" name="Acteur">
+    <ownedComment xmi:id="_k6BRpAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcElf-gEeeztu7iB9lEbg" name="Appareil">
-    <ownedComment xmi:id="_GXcElv-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRpQFXEeiero8MWZ0L1A" name="Appareil">
+    <ownedComment xmi:id="_k6BRpgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcEl_-gEeeztu7iB9lEbg" general="_GXcEW_-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcEmP-gEeeztu7iB9lEbg" name="aPourMesure" visibility="public" type="_GXcrrv-gEeeztu7iB9lEbg" aggregation="composite" association="_GXcEt_-gEeeztu7iB9lEbg">
-      <ownedComment xmi:id="_GXcEmf-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6BRpwFXEeiero8MWZ0L1A" general="_k6BRawFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6BRqAFXEeiero8MWZ0L1A" name="aPourMesure" visibility="public" type="_k6B5cQFXEeiero8MWZ0L1A" aggregation="composite" association="_k6BRxwFXEeiero8MWZ0L1A">
+      <ownedComment xmi:id="_k6BRqQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEmv-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEm_-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRqgFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRqwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEnP-gEeeztu7iB9lEbg" name="estFabriquePar" visibility="public" type="_GXcEd_-gEeeztu7iB9lEbg" association="_GXcEuf-gEeeztu7iB9lEbg">
-      <ownedComment xmi:id="_GXcEnf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRrAFXEeiero8MWZ0L1A" name="estFabriquePar" visibility="public" type="_k6BRhwFXEeiero8MWZ0L1A" association="_k6BRyQFXEeiero8MWZ0L1A">
+      <ownedComment xmi:id="_k6BRrQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEnv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRrgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEn_-gEeeztu7iB9lEbg" name="marque" visibility="public" type="_GXcrqv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEoP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRrwFXEeiero8MWZ0L1A" name="marque" visibility="public" type="_k6B5bQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRsAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEof-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRsQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEov-gEeeztu7iB9lEbg" name="fonction" visibility="public" type="_GXcrfv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEo_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRsgFXEeiero8MWZ0L1A" name="fonction" visibility="public" type="_k6B5QQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRswFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEpP-gEeeztu7iB9lEbg" value="*"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRtAFXEeiero8MWZ0L1A" value="*"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEpf-gEeeztu7iB9lEbg" name="pratique" visibility="public" type="_GXcrov-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEpv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRtQFXEeiero8MWZ0L1A" name="pratique" visibility="public" type="_k6B5ZQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRtgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEp_-gEeeztu7iB9lEbg" value="*"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRtwFXEeiero8MWZ0L1A" value="*"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEqP-gEeeztu7iB9lEbg" name="media" visibility="public" type="_GXcrcv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEqf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRuAFXEeiero8MWZ0L1A" name="media" visibility="public" type="_k6B5NQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRuQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEqv-gEeeztu7iB9lEbg" value="*"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRugFXEeiero8MWZ0L1A" value="*"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEq_-gEeeztu7iB9lEbg" name="descripteursTechniques" visibility="public" type="_GXcrxv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcErP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRuwFXEeiero8MWZ0L1A" name="descripteursTechniques" visibility="public" type="_k6B5iQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRvAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcErf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcErv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRvQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRvgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEr_-gEeeztu7iB9lEbg" name="materiaux" visibility="public" type="_GXcrrP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEsP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRvwFXEeiero8MWZ0L1A" name="materiaux" visibility="public" type="_k6B5bwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRwAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEsf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEsv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRwQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRwgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEs_-gEeeztu7iB9lEbg" name="numeroSerie" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEtP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BRwwFXEeiero8MWZ0L1A" name="numeroSerie" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6BRxAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEtf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEtv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6BRxQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BRxgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_GXcEt_-gEeeztu7iB9lEbg" memberEnd="_GXcEmP-gEeeztu7iB9lEbg _GXcEuP-gEeeztu7iB9lEbg">
-    <ownedEnd xmi:id="_GXcEuP-gEeeztu7iB9lEbg" visibility="public" type="_GXcElf-gEeeztu7iB9lEbg" association="_GXcEt_-gEeeztu7iB9lEbg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k6BRxwFXEeiero8MWZ0L1A" memberEnd="_k6BRqAFXEeiero8MWZ0L1A _k6BRyAFXEeiero8MWZ0L1A">
+    <ownedEnd xmi:id="_k6BRyAFXEeiero8MWZ0L1A" visibility="public" type="_k6BRpQFXEeiero8MWZ0L1A" association="_k6BRxwFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_GXcEuf-gEeeztu7iB9lEbg" memberEnd="_GXcEnP-gEeeztu7iB9lEbg _GXcEuv-gEeeztu7iB9lEbg">
-    <ownedEnd xmi:id="_GXcEuv-gEeeztu7iB9lEbg" visibility="public" type="_GXcElf-gEeeztu7iB9lEbg" association="_GXcEuf-gEeeztu7iB9lEbg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k6BRyQFXEeiero8MWZ0L1A" memberEnd="_k6BRrAFXEeiero8MWZ0L1A _k6BRygFXEeiero8MWZ0L1A">
+    <ownedEnd xmi:id="_k6BRygFXEeiero8MWZ0L1A" visibility="public" type="_k6BRpQFXEeiero8MWZ0L1A" association="_k6BRyQFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcEu_-gEeeztu7iB9lEbg" name="Camera">
-    <ownedComment xmi:id="_GXcEvP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6BRywFXEeiero8MWZ0L1A" name="Camera">
+    <ownedComment xmi:id="_k6BRzAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcEvf-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcEvv-gEeeztu7iB9lEbg" name="magasin" visibility="public" type="_GXcr5v-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEv_-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6BRzQFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6BRzgFXEeiero8MWZ0L1A" name="magasin" visibility="public" type="_k6B5qQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6BRzwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEwP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6BR0AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEwf-gEeeztu7iB9lEbg" name="moteur" visibility="public" type="_GXcrzP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcEwv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6BR0QFXEeiero8MWZ0L1A" name="moteur" visibility="public" type="_k6B5jwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4cAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEw_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4cQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcExP-gEeeztu7iB9lEbg" name="entrainement" visibility="public" type="_GXcrzv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcExf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4cgFXEeiero8MWZ0L1A" name="entrainement" visibility="public" type="_k6B5kQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4cwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcExv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4dAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEx_-gEeeztu7iB9lEbg" name="cadence" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEyP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4dQFXEeiero8MWZ0L1A" name="cadence" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4dgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEyf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4dwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEyv-gEeeztu7iB9lEbg" name="estImageParImage" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEy_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4eAFXEeiero8MWZ0L1A" name="estImageParImage" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4eQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcEzP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4egFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcEzf-gEeeztu7iB9lEbg" name="opturateurDetail" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcEzv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4ewFXEeiero8MWZ0L1A" name="opturateurDetail" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4fAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcEz_-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE0P-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B4fQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4fgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE0f-gEeeztu7iB9lEbg" name="estOpturateurVariable" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE0v-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4fwFXEeiero8MWZ0L1A" name="estOpturateurVariable" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4gAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE0_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4gQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE1P-gEeeztu7iB9lEbg" name="dispositifDeVisee" visibility="public" type="_GXcryP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE1f-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4ggFXEeiero8MWZ0L1A" name="dispositifDeVisee" visibility="public" type="_k6B5iwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4gwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcE1v-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE1_-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B4hAFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4hQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE2P-gEeeztu7iB9lEbg" name="estPosemetre" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE2f-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4hgFXEeiero8MWZ0L1A" name="estPosemetre" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4hwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE2v-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4iAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE2_-gEeeztu7iB9lEbg" name="compteur" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE3P-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4iQFXEeiero8MWZ0L1A" name="compteur" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4igFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE3f-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4iwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE3v-gEeeztu7iB9lEbg" name="tourelle" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE3_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4jAFXEeiero8MWZ0L1A" name="tourelle" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4jQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE4P-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4jgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE4f-gEeeztu7iB9lEbg" name="monture" visibility="public" type="_GXcroP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE4v-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4jwFXEeiero8MWZ0L1A" name="monture" visibility="public" type="_k6B5YwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4kAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE4_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4kQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE5P-gEeeztu7iB9lEbg" name="estObjectifsIntechangeables" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE5f-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE5v-gEeeztu7iB9lEbg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE5_-gEeeztu7iB9lEbg" name="estEnregistrementSon" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE6P-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4kgFXEeiero8MWZ0L1A" name="estObjectifsIntechangeables" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4kwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE6f-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4lAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE6v-gEeeztu7iB9lEbg" name="estSonSynchro" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE6_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4lQFXEeiero8MWZ0L1A" name="estEnregistrementSon" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4lgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE7P-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4lwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE7f-gEeeztu7iB9lEbg" name="procedeSonore" visibility="public" type="_GXcrnv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE7v-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcE7_-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE8P-gEeeztu7iB9lEbg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE8f-gEeeztu7iB9lEbg" name="formatPellicule" visibility="public" type="_GXcr5P-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE8v-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcE8_-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE9P-gEeeztu7iB9lEbg"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE9f-gEeeztu7iB9lEbg" name="estPortable" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcE9v-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4mAFXEeiero8MWZ0L1A" name="estSonSynchro" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4mQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE9_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4mgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcE-P-gEeeztu7iB9lEbg" name="obturateur" visibility="public" type="_GXcryv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE-f-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4mwFXEeiero8MWZ0L1A" name="procedeSonore" visibility="public" type="_k6B5YQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4nAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcE-v-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B4nQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4ngFXEeiero8MWZ0L1A"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B4nwFXEeiero8MWZ0L1A" name="formatPellicule" visibility="public" type="_k6B5pwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4oAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B4oQFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4ogFXEeiero8MWZ0L1A"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B4owFXEeiero8MWZ0L1A" name="estPortable" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4pAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4pQFXEeiero8MWZ0L1A"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B4pgFXEeiero8MWZ0L1A" name="obturateur" visibility="public" type="_k6B5jQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4pwFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4qAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcE-_-gEeeztu7iB9lEbg" name="Projecteur">
-    <ownedComment xmi:id="_GXcE_P-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B4qQFXEeiero8MWZ0L1A" name="Projecteur">
+    <ownedComment xmi:id="_k6B4qgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcE_f-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcE_v-gEeeztu7iB9lEbg" name="longueurBobine" visibility="public" type="_GXcrrv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcE__-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6B4qwFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B4rAFXEeiero8MWZ0L1A" name="longueurBobine" visibility="public" type="_k6B5cQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4rQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFAP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4rgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFAf-gEeeztu7iB9lEbg" name="moteur" visibility="public" type="_GXcrzP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFAv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4rwFXEeiero8MWZ0L1A" name="moteur" visibility="public" type="_k6B5jwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4sAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFA_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4sQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFBP-gEeeztu7iB9lEbg" name="entrainement" visibility="public" type="_GXcrzv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFBf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4sgFXEeiero8MWZ0L1A" name="entrainement" visibility="public" type="_k6B5kQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4swFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFBv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4tAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFB_-gEeeztu7iB9lEbg" name="cadence" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFCP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4tQFXEeiero8MWZ0L1A" name="cadence" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4tgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFCf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4twFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFCv-gEeeztu7iB9lEbg" name="estImageParImage" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFC_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4uAFXEeiero8MWZ0L1A" name="estImageParImage" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4uQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFDP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4ugFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFDf-gEeeztu7iB9lEbg" name="obturateur" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFDv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4uwFXEeiero8MWZ0L1A" name="obturateur" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4vAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFD_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4vQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFEP-gEeeztu7iB9lEbg" name="passePlaque" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFEf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4vgFXEeiero8MWZ0L1A" name="passePlaque" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4vwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFEv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4wAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFE_-gEeeztu7iB9lEbg" name="sourceLumineuse" visibility="public" type="_GXcr6P-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFFP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4wQFXEeiero8MWZ0L1A" name="sourceLumineuse" visibility="public" type="_k6B5qwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4wgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFFf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4wwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFFv-gEeeztu7iB9lEbg" name="puissance" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFF_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4xAFXEeiero8MWZ0L1A" name="puissance" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4xQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFGP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4xgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFGf-gEeeztu7iB9lEbg" name="estSonSynchro" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFGv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4xwFXEeiero8MWZ0L1A" name="estSonSynchro" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4yAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFG_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4yQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFHP-gEeeztu7iB9lEbg" name="amplificateur" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFHf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4ygFXEeiero8MWZ0L1A" name="amplificateur" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4ywFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFHv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4zAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFH_-gEeeztu7iB9lEbg" name="ProcedeSonore" visibility="public" type="_GXcrnv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFIP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4zQFXEeiero8MWZ0L1A" name="procedeSonore" visibility="public" type="_k6B5YQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B4zgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcFIf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFIv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B4zwFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B40AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFI_-gEeeztu7iB9lEbg" name="formatPellicule" visibility="public" type="_GXcr5P-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFJP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B40QFXEeiero8MWZ0L1A" name="formatPellicule" visibility="public" type="_k6B5pwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B40gFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcFJf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFJv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B40wFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B41AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFJ_-gEeeztu7iB9lEbg" name="estPortable" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFKP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B41QFXEeiero8MWZ0L1A" name="estPortable" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B41gFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFKf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B41wFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcFKv-gEeeztu7iB9lEbg" name="Objectif">
-    <ownedComment xmi:id="_GXcFK_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B42AFXEeiero8MWZ0L1A" name="Objectif">
+    <ownedComment xmi:id="_k6B42QFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcFLP-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcFLf-gEeeztu7iB9lEbg" name="estFocaleVariable" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFLv-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6B42gFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B42wFXEeiero8MWZ0L1A" name="estFocaleVariable" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B43AFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFL_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B43QFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFMP-gEeeztu7iB9lEbg" name="focale" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFMf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B43gFXEeiero8MWZ0L1A" name="focale" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B43wFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFMv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B44AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFM_-gEeeztu7iB9lEbg" name="ouverture" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFNP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B44QFXEeiero8MWZ0L1A" name="ouverture" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B44gFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFNf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B44wFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFNv-gEeeztu7iB9lEbg" name="estSpherique" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFN_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B45AFXEeiero8MWZ0L1A" name="estSpherique" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B45QFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFOP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B45gFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFOf-gEeeztu7iB9lEbg" name="estAnamorphique" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFOv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B45wFXEeiero8MWZ0L1A" name="estAnamorphique" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B46AFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFO_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B46QFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFPP-gEeeztu7iB9lEbg" name="monture" visibility="public" type="_GXcroP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFPf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B46gFXEeiero8MWZ0L1A" name="monture" visibility="public" type="_k6B5YwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B46wFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFPv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B47AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcFP_-gEeeztu7iB9lEbg" name="EnregistreurSonore">
-    <ownedComment xmi:id="_GXcFQP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B47QFXEeiero8MWZ0L1A" name="EnregistreurSonore">
+    <ownedComment xmi:id="_k6B47gFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcFQf-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcFQv-gEeeztu7iB9lEbg" name="longueurBobine" visibility="public" type="_GXcrrv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFQ_-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6B47wFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B48AFXEeiero8MWZ0L1A" name="longueurBobine" visibility="public" type="_k6B5cQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B48QFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFRP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B48gFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFRf-gEeeztu7iB9lEbg" name="moteur" visibility="public" type="_GXcrzP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFRv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B48wFXEeiero8MWZ0L1A" name="moteur" visibility="public" type="_k6B5jwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B49AFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcFR_-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFSP-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B49QFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B49gFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFSf-gEeeztu7iB9lEbg" name="vitesse" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFSv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B49wFXEeiero8MWZ0L1A" name="vitesse" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4-AFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFS_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4-QFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFTP-gEeeztu7iB9lEbg" name="compteur" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFTf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4-gFXEeiero8MWZ0L1A" name="compteur" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4-wFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFTv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4_AFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFT_-gEeeztu7iB9lEbg" name="estSonSynchro" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFUP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B4_QFXEeiero8MWZ0L1A" name="estSonSynchro" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B4_gFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFUf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B4_wFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFUv-gEeeztu7iB9lEbg" name="procedeSonore" visibility="public" type="_GXcrnv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFU_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5AAFXEeiero8MWZ0L1A" name="procedeSonore" visibility="public" type="_k6B5YQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5AQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFVP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5AgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFVf-gEeeztu7iB9lEbg" name="estPortable" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFVv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5AwFXEeiero8MWZ0L1A" name="estPortable" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5BAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFV_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5BQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcFWP-gEeeztu7iB9lEbg" name="Pellicule">
-    <ownedComment xmi:id="_GXcFWf-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5BgFXEeiero8MWZ0L1A" name="Pellicule">
+    <ownedComment xmi:id="_k6B5BwFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcFWv-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcFW_-gEeeztu7iB9lEbg" name="ratio" visibility="public" type="_GXcrmv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFXP-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6B5CAFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B5CQFXEeiero8MWZ0L1A" name="ratio" visibility="public" type="_k6B5XQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5CgFXEeiero8MWZ0L1A">
         <body>
 &lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFXf-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5CwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFXv-gEeeztu7iB9lEbg" name="support" visibility="public" type="_GXcrlv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFX_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5DAFXEeiero8MWZ0L1A" name="support" visibility="public" type="_k6B5WQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5DQFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFYP-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5DgFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFYf-gEeeztu7iB9lEbg" name="emulsion" visibility="public" type="_GXcrmP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFYv-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5DwFXEeiero8MWZ0L1A" name="emulsion" visibility="public" type="_k6B5WwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5EAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFY_-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5EQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFZP-gEeeztu7iB9lEbg" name="generation" visibility="public" type="_GXcrnP-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcFZf-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5EgFXEeiero8MWZ0L1A" name="generation" visibility="public" type="_k6B5XwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5EwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFZv-gEeeztu7iB9lEbg"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5FAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFZ_-gEeeztu7iB9lEbg" name="collures" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcFaP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5FQFXEeiero8MWZ0L1A" name="collures" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5FgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcFaf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcFav-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B5FwFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5GAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcFa_-gEeeztu7iB9lEbg" name="edgeCode" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcrYP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5GQFXEeiero8MWZ0L1A" name="edgeCode" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5GgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcrYf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcrYv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B5GwFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5HAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcrY_-gEeeztu7iB9lEbg" name="procedeSonore" visibility="public" type="_GXcrnv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcrZP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5HQFXEeiero8MWZ0L1A" name="procedeSonore" visibility="public" type="_k6B5YQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5HgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GXcrZf-gEeeztu7iB9lEbg" value="*"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcrZv-gEeeztu7iB9lEbg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B5HwFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5IAFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcrZ_-gEeeztu7iB9lEbg" name="formatPellicule" visibility="public" type="_GXcr5P-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcraP-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5IQFXEeiero8MWZ0L1A" name="formatPellicule" visibility="public" type="_k6B5pwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5IgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcraf-gEeeztu7iB9lEbg"/>
-    </ownedAttribute>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcrav-gEeeztu7iB9lEbg" name="Eclairage">
-    <ownedComment xmi:id="_GXcra_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <generalization xmi:id="_GXcrbP-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcrbf-gEeeztu7iB9lEbg" name="Autre">
-    <ownedComment xmi:id="_GXcrbv-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <generalization xmi:id="_GXcrb_-gEeeztu7iB9lEbg" general="_GXcElf-gEeeztu7iB9lEbg"/>
-    <ownedAttribute xmi:id="_GXcrcP-gEeeztu7iB9lEbg" name="Categorie" visibility="public" type="_GXcr4v-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcrcf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5IwFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrcv-gEeeztu7iB9lEbg" name="Medias">
-    <ownedComment xmi:id="_GXcrc_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5JAFXEeiero8MWZ0L1A" name="Eclairage">
+    <ownedComment xmi:id="_k6B5JQFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedLiteral xmi:id="_GXcrdP-gEeeztu7iB9lEbg" name="Pré-cinéma">
-      <ownedComment xmi:id="_GXcrdf-gEeeztu7iB9lEbg">
+    <generalization xmi:id="_k6B5JgFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B5JwFXEeiero8MWZ0L1A" name="typeEclairage" visibility="public" type="_k6B5rwFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5KAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrdv-gEeeztu7iB9lEbg" name="Cinéma">
-      <ownedComment xmi:id="_GXcrd_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcreP-gEeeztu7iB9lEbg" name="Télévision">
-      <ownedComment xmi:id="_GXcref-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrev-gEeeztu7iB9lEbg" name="Vidéo">
-      <ownedComment xmi:id="_GXcre_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrfP-gEeeztu7iB9lEbg" name="Numérique">
-      <ownedComment xmi:id="_GXcrff-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrfv-gEeeztu7iB9lEbg" name="Fonctions">
-    <ownedComment xmi:id="_GXcrf_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <ownedLiteral xmi:id="_GXcrgP-gEeeztu7iB9lEbg" name="Développement">
-      <ownedComment xmi:id="_GXcrgf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrgv-gEeeztu7iB9lEbg" name="Éclairage">
-      <ownedComment xmi:id="_GXcrg_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrhP-gEeeztu7iB9lEbg" name="Effets spéciaux">
-      <ownedComment xmi:id="_GXcrhf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrhv-gEeeztu7iB9lEbg" name="Étalonnage">
-      <ownedComment xmi:id="_GXcrh_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcriP-gEeeztu7iB9lEbg" name="Mixage">
-      <ownedComment xmi:id="_GXcrif-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcriv-gEeeztu7iB9lEbg" name="Montage">
-      <ownedComment xmi:id="_GXcri_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrjP-gEeeztu7iB9lEbg" name="Préservation">
-      <ownedComment xmi:id="_GXcrjf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrjv-gEeeztu7iB9lEbg" name="Prise de son">
-      <ownedComment xmi:id="_GXcrj_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrkP-gEeeztu7iB9lEbg" name="Prise de vue">
-      <ownedComment xmi:id="_GXcrkf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrkv-gEeeztu7iB9lEbg" name="Projection">
-      <ownedComment xmi:id="_GXcrk_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrlP-gEeeztu7iB9lEbg" name="Tirage">
-      <ownedComment xmi:id="_GXcrlf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrlv-gEeeztu7iB9lEbg" name="Supports">
-    <ownedComment xmi:id="_GXcrl_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrmP-gEeeztu7iB9lEbg" name="Emulsions">
-    <ownedComment xmi:id="_GXcrmf-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrmv-gEeeztu7iB9lEbg" name="Ratios">
-    <ownedComment xmi:id="_GXcrm_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrnP-gEeeztu7iB9lEbg" name="Generations">
-    <ownedComment xmi:id="_GXcrnf-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrnv-gEeeztu7iB9lEbg" name="ProcedesSonores">
-    <ownedComment xmi:id="_GXcrn_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcroP-gEeeztu7iB9lEbg" name="Montures">
-    <ownedComment xmi:id="_GXcrof-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrov-gEeeztu7iB9lEbg" name="Pratiques">
-    <ownedComment xmi:id="_GXcro_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <ownedLiteral xmi:id="_GXcrpP-gEeeztu7iB9lEbg" name="Amateur">
-      <ownedComment xmi:id="_GXcrpf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrpv-gEeeztu7iB9lEbg" name="Professionnel">
-      <ownedComment xmi:id="_GXcrp_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrqP-gEeeztu7iB9lEbg" name="Scolaire">
-      <ownedComment xmi:id="_GXcrqf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrqv-gEeeztu7iB9lEbg" name="Marques">
-    <ownedComment xmi:id="_GXcrq_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrrP-gEeeztu7iB9lEbg" name="Materiaux">
-    <ownedComment xmi:id="_GXcrrf-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcrrv-gEeeztu7iB9lEbg" name="Dimension">
-    <ownedComment xmi:id="_GXcrr_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <ownedAttribute xmi:id="_GXcrsP-gEeeztu7iB9lEbg" name="etendue" visibility="public" type="_GXcruv-gEeeztu7iB9lEbg" isUnique="false">
-      <ownedComment xmi:id="_GXcrsf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5KQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcrsv-gEeeztu7iB9lEbg" name="unite" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcrs_-gEeeztu7iB9lEbg">
+    <ownedAttribute xmi:id="_k6B5KgFXEeiero8MWZ0L1A" name="sourceLumineuse" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5KwFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k6B5LAFXEeiero8MWZ0L1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5LQFXEeiero8MWZ0L1A"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B5LgFXEeiero8MWZ0L1A" name="Puissance" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5LwFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:id="_GXcrtP-gEeeztu7iB9lEbg" name="mesure" visibility="public" isUnique="false">
-      <ownedComment xmi:id="_GXcrtf-gEeeztu7iB9lEbg">
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5MAFXEeiero8MWZ0L1A" name="Autre">
+    <ownedComment xmi:id="_k6B5MQFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <generalization xmi:id="_k6B5MgFXEeiero8MWZ0L1A" general="_k6BRpQFXEeiero8MWZ0L1A"/>
+    <ownedAttribute xmi:id="_k6B5MwFXEeiero8MWZ0L1A" name="Categorie" visibility="public" type="_k6B5pQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5NAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5NQFXEeiero8MWZ0L1A" name="Medias">
+    <ownedComment xmi:id="_k6B5NgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <ownedLiteral xmi:id="_k6B5NwFXEeiero8MWZ0L1A" name="Pré-cinéma">
+      <ownedComment xmi:id="_k6B5OAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5OQFXEeiero8MWZ0L1A" name="Cinéma">
+      <ownedComment xmi:id="_k6B5OgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5OwFXEeiero8MWZ0L1A" name="Télévision">
+      <ownedComment xmi:id="_k6B5PAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5PQFXEeiero8MWZ0L1A" name="Vidéo">
+      <ownedComment xmi:id="_k6B5PgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5PwFXEeiero8MWZ0L1A" name="Numérique">
+      <ownedComment xmi:id="_k6B5QAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5QQFXEeiero8MWZ0L1A" name="Fonctions">
+    <ownedComment xmi:id="_k6B5QgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <ownedLiteral xmi:id="_k6B5QwFXEeiero8MWZ0L1A" name="Développement">
+      <ownedComment xmi:id="_k6B5RAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5RQFXEeiero8MWZ0L1A" name="Éclairage">
+      <ownedComment xmi:id="_k6B5RgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5RwFXEeiero8MWZ0L1A" name="Effets spéciaux">
+      <ownedComment xmi:id="_k6B5SAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5SQFXEeiero8MWZ0L1A" name="Étalonnage">
+      <ownedComment xmi:id="_k6B5SgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5SwFXEeiero8MWZ0L1A" name="Mixage">
+      <ownedComment xmi:id="_k6B5TAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5TQFXEeiero8MWZ0L1A" name="Montage">
+      <ownedComment xmi:id="_k6B5TgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5TwFXEeiero8MWZ0L1A" name="Préservation">
+      <ownedComment xmi:id="_k6B5UAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5UQFXEeiero8MWZ0L1A" name="Prise de son">
+      <ownedComment xmi:id="_k6B5UgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5UwFXEeiero8MWZ0L1A" name="Prise de vue">
+      <ownedComment xmi:id="_k6B5VAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5VQFXEeiero8MWZ0L1A" name="Projection">
+      <ownedComment xmi:id="_k6B5VgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5VwFXEeiero8MWZ0L1A" name="Tirage">
+      <ownedComment xmi:id="_k6B5WAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5WQFXEeiero8MWZ0L1A" name="Supports">
+    <ownedComment xmi:id="_k6B5WgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5WwFXEeiero8MWZ0L1A" name="Emulsions">
+    <ownedComment xmi:id="_k6B5XAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5XQFXEeiero8MWZ0L1A" name="Ratios">
+    <ownedComment xmi:id="_k6B5XgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5XwFXEeiero8MWZ0L1A" name="Generations">
+    <ownedComment xmi:id="_k6B5YAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5YQFXEeiero8MWZ0L1A" name="ProcedesSonores">
+    <ownedComment xmi:id="_k6B5YgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5YwFXEeiero8MWZ0L1A" name="Montures">
+    <ownedComment xmi:id="_k6B5ZAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5ZQFXEeiero8MWZ0L1A" name="Pratiques">
+    <ownedComment xmi:id="_k6B5ZgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <ownedLiteral xmi:id="_k6B5ZwFXEeiero8MWZ0L1A" name="Amateur">
+      <ownedComment xmi:id="_k6B5aAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5aQFXEeiero8MWZ0L1A" name="Professionnel">
+      <ownedComment xmi:id="_k6B5agFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5awFXEeiero8MWZ0L1A" name="Scolaire">
+      <ownedComment xmi:id="_k6B5bAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5bQFXEeiero8MWZ0L1A" name="Marques">
+    <ownedComment xmi:id="_k6B5bgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5bwFXEeiero8MWZ0L1A" name="Materiaux">
+    <ownedComment xmi:id="_k6B5cAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5cQFXEeiero8MWZ0L1A" name="Dimension">
+    <ownedComment xmi:id="_k6B5cgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <ownedAttribute xmi:id="_k6B5cwFXEeiero8MWZ0L1A" name="etendue" visibility="public" type="_k6B5fQFXEeiero8MWZ0L1A" isUnique="false">
+      <ownedComment xmi:id="_k6B5dAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B5dQFXEeiero8MWZ0L1A" name="unite" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5dgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GXcrtv-gEeeztu7iB9lEbg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_k6B5dwFXEeiero8MWZ0L1A" name="mesure" visibility="public" isUnique="false">
+      <ownedComment xmi:id="_k6B5eAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k6B5eQFXEeiero8MWZ0L1A"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcrt_-gEeeztu7iB9lEbg" name="Ressource">
-    <ownedComment xmi:id="_GXcruP-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5egFXEeiero8MWZ0L1A" name="Ressource">
+    <ownedComment xmi:id="_k6B5ewFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <generalization xmi:id="_GXcruf-gEeeztu7iB9lEbg" general="_GXcEW_-gEeeztu7iB9lEbg"/>
+    <generalization xmi:id="_k6B5fAFXEeiero8MWZ0L1A" general="_k6BRawFXEeiero8MWZ0L1A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcruv-gEeeztu7iB9lEbg" name="Etendues">
-    <ownedComment xmi:id="_GXcru_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5fQFXEeiero8MWZ0L1A" name="Etendues">
+    <ownedComment xmi:id="_k6B5fgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
-    <ownedLiteral xmi:id="_GXcrvP-gEeeztu7iB9lEbg" name="Hauteur">
-      <ownedComment xmi:id="_GXcrvf-gEeeztu7iB9lEbg">
+    <ownedLiteral xmi:id="_k6B5fwFXEeiero8MWZ0L1A" name="Hauteur">
+      <ownedComment xmi:id="_k6B5gAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrvv-gEeeztu7iB9lEbg" name="Longueur">
-      <ownedComment xmi:id="_GXcrv_-gEeeztu7iB9lEbg">
+    <ownedLiteral xmi:id="_k6B5gQFXEeiero8MWZ0L1A" name="Longueur">
+      <ownedComment xmi:id="_k6B5ggFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrwP-gEeeztu7iB9lEbg" name="Largeur">
-      <ownedComment xmi:id="_GXcrwf-gEeeztu7iB9lEbg">
+    <ownedLiteral xmi:id="_k6B5gwFXEeiero8MWZ0L1A" name="Largeur">
+      <ownedComment xmi:id="_k6B5hAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrwv-gEeeztu7iB9lEbg" name="Diamètre">
-      <ownedComment xmi:id="_GXcrw_-gEeeztu7iB9lEbg">
+    <ownedLiteral xmi:id="_k6B5hQFXEeiero8MWZ0L1A" name="Diamètre">
+      <ownedComment xmi:id="_k6B5hgFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcrxP-gEeeztu7iB9lEbg" name="Poids">
-      <ownedComment xmi:id="_GXcrxf-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrxv-gEeeztu7iB9lEbg" name="Thesaurus">
-    <ownedComment xmi:id="_GXcrx_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcryP-gEeeztu7iB9lEbg" name="DispositifsDeVisee">
-    <ownedComment xmi:id="_GXcryf-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcryv-gEeeztu7iB9lEbg" name="Obturateurs">
-    <ownedComment xmi:id="_GXcry_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrzP-gEeeztu7iB9lEbg" name="Moteurs">
-    <ownedComment xmi:id="_GXcrzf-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcrzv-gEeeztu7iB9lEbg" name="Entrainements">
-    <ownedComment xmi:id="_GXcrz_-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr0P-gEeeztu7iB9lEbg" name="TypeRelations">
-    <ownedComment xmi:id="_GXcr0f-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <ownedLiteral xmi:id="_GXcr0v-gEeeztu7iB9lEbg" name="estPartieDe">
-      <ownedComment xmi:id="_GXcr0_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcr1P-gEeeztu7iB9lEbg" name="est contenu dans">
-      <ownedComment xmi:id="_GXcr1f-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcr1v-gEeeztu7iB9lEbg" name="est sujet de">
-      <ownedComment xmi:id="_GXcr1_-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcr2P-gEeeztu7iB9lEbg" name="a pour copie">
-      <ownedComment xmi:id="_GXcr2f-gEeeztu7iB9lEbg">
-        <body>&lt;Enter note text here></body>
-      </ownedComment>
-    </ownedLiteral>
-    <ownedLiteral xmi:id="_GXcr2v-gEeeztu7iB9lEbg" name="est figuré sur">
-      <ownedComment xmi:id="_GXcr2_-gEeeztu7iB9lEbg">
+    <ownedLiteral xmi:id="_k6B5hwFXEeiero8MWZ0L1A" name="Poids">
+      <ownedComment xmi:id="_k6B5iAFXEeiero8MWZ0L1A">
         <body>&lt;Enter note text here></body>
       </ownedComment>
     </ownedLiteral>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcr3P-gEeeztu7iB9lEbg" name="Media">
-    <ownedComment xmi:id="_GXcr3f-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <generalization xmi:id="_GXcr3v-gEeeztu7iB9lEbg" general="_GXcrt_-gEeeztu7iB9lEbg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_GXcr3_-gEeeztu7iB9lEbg" name="Source">
-    <ownedComment xmi:id="_GXcr4P-gEeeztu7iB9lEbg">
-      <body>&lt;Enter note text here></body>
-    </ownedComment>
-    <generalization xmi:id="_GXcr4f-gEeeztu7iB9lEbg" general="_GXcrt_-gEeeztu7iB9lEbg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr4v-gEeeztu7iB9lEbg" name="Categories">
-    <ownedComment xmi:id="_GXcr4_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5iQFXEeiero8MWZ0L1A" name="Thesaurus">
+    <ownedComment xmi:id="_k6B5igFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr5P-gEeeztu7iB9lEbg" name="Formats">
-    <ownedComment xmi:id="_GXcr5f-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5iwFXEeiero8MWZ0L1A" name="DispositifsDeVisee">
+    <ownedComment xmi:id="_k6B5jAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr5v-gEeeztu7iB9lEbg" name="Magasins">
-    <ownedComment xmi:id="_GXcr5_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5jQFXEeiero8MWZ0L1A" name="Obturateurs">
+    <ownedComment xmi:id="_k6B5jgFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr6P-gEeeztu7iB9lEbg" name="SourcesLumineuses">
-    <ownedComment xmi:id="_GXcr6f-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5jwFXEeiero8MWZ0L1A" name="Moteurs">
+    <ownedComment xmi:id="_k6B5kAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Enumeration" xmi:id="_GXcr6v-gEeeztu7iB9lEbg" name="Fabriquants">
-    <ownedComment xmi:id="_GXcr6_-gEeeztu7iB9lEbg">
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5kQFXEeiero8MWZ0L1A" name="Entrainements">
+    <ownedComment xmi:id="_k6B5kgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5kwFXEeiero8MWZ0L1A" name="TypeRelations">
+    <ownedComment xmi:id="_k6B5lAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <ownedLiteral xmi:id="_k6B5lQFXEeiero8MWZ0L1A" name="estPartieDe">
+      <ownedComment xmi:id="_k6B5lgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5lwFXEeiero8MWZ0L1A" name="est contenu dans">
+      <ownedComment xmi:id="_k6B5mAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5mQFXEeiero8MWZ0L1A" name="est sujet de">
+      <ownedComment xmi:id="_k6B5mgFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5mwFXEeiero8MWZ0L1A" name="a pour copie">
+      <ownedComment xmi:id="_k6B5nAFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+    <ownedLiteral xmi:id="_k6B5nQFXEeiero8MWZ0L1A" name="est figuré sur">
+      <ownedComment xmi:id="_k6B5ngFXEeiero8MWZ0L1A">
+        <body>&lt;Enter note text here></body>
+      </ownedComment>
+    </ownedLiteral>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5nwFXEeiero8MWZ0L1A" name="Media">
+    <ownedComment xmi:id="_k6B5oAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <generalization xmi:id="_k6B5oQFXEeiero8MWZ0L1A" general="_k6B5egFXEeiero8MWZ0L1A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_k6B5ogFXEeiero8MWZ0L1A" name="Source">
+    <ownedComment xmi:id="_k6B5owFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+    <generalization xmi:id="_k6B5pAFXEeiero8MWZ0L1A" general="_k6B5egFXEeiero8MWZ0L1A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5pQFXEeiero8MWZ0L1A" name="Categories">
+    <ownedComment xmi:id="_k6B5pgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5pwFXEeiero8MWZ0L1A" name="Formats">
+    <ownedComment xmi:id="_k6B5qAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5qQFXEeiero8MWZ0L1A" name="Magasins">
+    <ownedComment xmi:id="_k6B5qgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5qwFXEeiero8MWZ0L1A" name="SourcesLumineuses">
+    <ownedComment xmi:id="_k6B5rAFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5rQFXEeiero8MWZ0L1A" name="Fabriquants">
+    <ownedComment xmi:id="_k6B5rgFXEeiero8MWZ0L1A">
+      <body>&lt;Enter note text here></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_k6B5rwFXEeiero8MWZ0L1A" name="TypesEclairage">
+    <ownedComment xmi:id="_k6B5sAFXEeiero8MWZ0L1A">
       <body>&lt;Enter note text here></body>
     </ownedComment>
   </packagedElement>
